@@ -1,0 +1,297 @@
+body{
+    background-color: aqua;
+    margin: 0;
+}
+
+.center{
+    width: 1000px;
+    height: 150%;
+    background-color: aliceblue;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 5%;
+    margin-bottom: 20px;
+
+}
+/**fieldset{
+    width: 40%;
+    height: 50%;
+    border-radius: 2px;
+    float: left;
+    align-content: center;
+    padding: 10px;
+    margin-left: 20px;
+}**/
+input    {
+    /*width:375px;*/
+    display:block;
+    border: 1px solid #999;
+    height: 25px;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+}
+.logo{
+    float: left;
+    width: 100px;
+    padding-top: 15px;
+}
+.main-nav{
+    float: right;
+    width: 500px;
+    text-align: right;
+
+
+}
+.main-nav ul a {
+    color: white;
+    text-decoration: none;
+    padding-top: 0px;
+}
+
+fieldset {
+    background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+    background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+    margin: auto;
+    position: relative;
+    width: 40%;
+    /*height: 50%;*/
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 20px;
+    font-weight: bold;
+    color: #09C;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #999;
+    border: inset 1px solid #333;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    float: left;
+    margin-left: 20px;
+}
+
+header{
+    background: #3498db;
+    height: 30px;
+    padding: 10px;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+.header-wrap{
+    width: 1000px;
+    height: 100%;
+    padding: 5px;
+    margin: auto;
+    clear: both;
+
+}
+
+.mgt-nav{
+    width: 900px;
+    padding: 2px;
+
+
+
+}
+.mgt-nav ul li a {
+    text-decoration: none;
+    display: inline;
+    color: white;
+    width: 250px;
+    height: 50px;
+    background-color: #36d278;
+    border-radius: 5px 2px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.mgt-nav a:hover {
+    color: #000000;
+}
+
+footer{
+    background: #3498db;
+    height: 20px;
+    padding: 10px;
+    color: white;
+    position: fixed;
+    width:100%;
+    bottom: 0;
+}
+.footer-word{
+    text-decoration: none;
+    color: white;
+    font-family: sans;
+}
+
+.cl_search{
+    margin: auto;
+    width: 100%;
+}
+
+.searcher{
+    padding: 10px;
+}
+/**THIS IS THE STYLE FOR THE TABLE LIST
+**/
+
+
+table a:link {
+    color: #666;
+    font-weight: bold;
+    text-decoration:none;
+}
+table a:visited {
+    color: #999999;
+    font-weight:bold;
+    text-decoration:none;
+}
+table a:active,
+table a:hover {
+    color: #bd5a35;
+    text-decoration:underline;
+}
+table {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#666;
+    font-size:12px;
+    text-shadow: 1px 1px 0px #fff;
+    background:#eaebec;
+    margin:20px;
+    border:#ccc 1px solid;
+
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+
+    -moz-box-shadow: 0 1px 2px #d1d1d1;
+    -webkit-box-shadow: 0 1px 2px #d1d1d1;
+    box-shadow: 0 1px 2px #d1d1d1;
+
+}
+table th {
+    padding:21px 25px 22px 25px;
+    border-top:1px solid #fafafa;
+    border-bottom:1px solid #e0e0e0;
+
+    background: #ededed;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
+    background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
+}
+table th:first-child {
+    text-align: left;
+    padding-left:20px;
+}
+table tr:first-child th:first-child {
+    -moz-border-radius-topleft:3px;
+    -webkit-border-top-left-radius:3px;
+    border-top-left-radius:3px;
+}
+table tr:first-child th:last-child {
+    -moz-border-radius-topright:3px;
+    -webkit-border-top-right-radius:3px;
+    border-top-right-radius:3px;
+}
+table tr {
+    text-align: center;
+    padding-left:20px;
+}
+table td:first-child {
+    text-align: left;
+    padding-left:20px;
+    border-left: 0;
+}
+table td {
+    padding:18px;
+    border-top: 1px solid #ffffff;
+    border-bottom:1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+
+    background: #fafafa;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+    background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+table tr.even td {
+    background: #f6f6f6;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
+    background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
+}
+table tr:last-child td {
+    border-bottom:0;
+}
+table tr:last-child td:first-child {
+    -moz-border-radius-bottomleft:3px;
+    -webkit-border-bottom-left-radius:3px;
+    border-bottom-left-radius:3px;
+}
+table tr:last-child td:last-child {
+    -moz-border-radius-bottomright:3px;
+    -webkit-border-bottom-right-radius:3px;
+    border-bottom-right-radius:3px;
+}
+table tr:hover td {
+    background: #f2f2f2;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+    background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);
+}
+
+.tt{
+    margin: auto;
+    margin-top: 50px;
+    float: right;
+    width: 1000px;
+}
+
+/*this is pagination*/
+
+
+
+
+a {
+    color: #4A4A4A;
+    border: 0; outline: 0;
+}
+
+.pagination {
+    text-align: center;
+    margin: 20px;
+    clear: both;
+    padding-top: 20px;
+
+}
+.pagination a, .pagination strong {
+    background: bisque;
+    display: inline-block;
+    margin-right: 3px;
+    padding: 4px 12px;
+    text-decoration: none;
+    line-height: 1.5em;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.pagination a:hover {
+    background-color: #BEBEBE;
+    color: #fff;
+}
+.pagination a:active {
+    background: rgba(190, 190, 190, 0.75);
+}
+.pagination strong {
+    color: #fff;
+    background-color: #BEBEBE;
+}
